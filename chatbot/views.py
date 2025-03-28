@@ -7,7 +7,7 @@ def chat(request):
         user_input = request.POST.get("message")
         
         # Hugging Face API configuration
-        API_URL = "https://api-inference.huggingface.co/models/facebook/blenderbot-400M-distill"
+        API_URL = "https://transformer.huggingface.co/doc/gpt2-large"
         headers = {
             "Authorization": "Bearer YOUR_HUGGING_FACE_API_TOKEN"
         }
